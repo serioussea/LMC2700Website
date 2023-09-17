@@ -1,0 +1,40 @@
+/* Styling for the About page with a Bratz-inspired theme */
+body {
+    background-color: #ff66b2; /* Pink background color */
+    color: #fff; /* White text color */
+    font-family: 'Arial', sans-serif; /* Clean and modern font */
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+    text-align: center; /* Center align content */
+}
+
+h1 {
+    font-size: 36px; /* Larger font size for headings */
+    color: #ff1493; /* Bright pink heading color */
+    text-transform: uppercase; /* Uppercase headings for a stylish look */
+}
+
+p {
+    font-size: 18px; /* Standard font size for paragraphs */
+    line-height: 1.5; /* Improved readability */
+    text-align: justify;
+}
+
+/* Add Bratz-like fashion elements, such as diva sunglasses and a stylish handbag */
+.diva-sunglasses {
+    max-width: 100px;
+    height: auto;
+    margin-top: 20px;
+}
+
+.stylish-handbag {
+    max-width: 150px;
+    height: auto;
+    margin-top: 20px;
+}
