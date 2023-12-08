@@ -1,0 +1,33 @@
+/* Add your styles for the projects page here */
+body {
+    background-color: #da9bbb; /* Lighter pink */
+    font-family: 'Roboto', sans-serif; /* Default font */
+    margin: 0;
+}
+
+.project-box {
+    background-color: #f66db1; /* Lighter pink */
+    border-radius: 10px;
+    overflow: hidden;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    margin-bottom: 20px;
+}
+
+h2 {
+    color: #cc0066; /* Deep pink */
+    padding: 15px;
+    margin: 0;
+}
+
+iframe {
+    width: 100%;
+    height: 450px;
+}
+
+.empty-box {
+    width: 100%;
+    height: 450px;
+    background-color: #cc0066; /* Deep pink */
+}
+
+
