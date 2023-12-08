@@ -4,10 +4,7 @@ body {
     font-family: 'Roboto', sans-serif; /* Default font */
     margin: 0;
 }
-header {
-    background-color: #ff80c0; /* Bratz pink */
-    padding: 10px;
-}
+
 header {
     background-color: #ff80c0; /* Bratz pink */
     padding: 10px;
@@ -49,14 +46,12 @@ nav a:hover {
 h1, h2, h3 {
     color: #8e0d52; /* Deep pink */
     font-family: 'Montserrat', sans-serif;
-   
 }
 
 p {
     color: white;
     font-size: 1.1em;
     line-height: 1.5;
-   
 }
 
 strong {
