@@ -1,40 +1,88 @@
-/* Styling for the About page with a Bratz-inspired theme */
+/* Add your styles for the about page here */
 body {
-    background-color: #ff66b2; /* Pink background color */
-    color: #fff; /* White text color */
-    font-family: 'Arial', sans-serif; /* Clean and modern font */
+    background-color: #da9bbb; /* Lighter pink */
+    font-family: 'Roboto', sans-serif; /* Default font */
+    margin: 0;
+}
+header {
+    background-color: #ff80c0; /* Bratz pink */
+    padding: 10px;
+}
+header {
+    background-color: #ff80c0; /* Bratz pink */
+    padding: 10px;
+}
+
+nav ul {
+    list-style-type: none;
     margin: 0;
     padding: 0;
 }
 
-.container {
-    max-width: 800px;
-    margin: 0 auto;
-    padding: 20px;
-    text-align: center; /* Center align content */
+nav li {
+    display: inline;
+    margin-right: 20px;
 }
 
-h1 {
-    font-size: 36px; /* Larger font size for headings */
-    color: #ff1493; /* Bright pink heading color */
-    text-transform: uppercase; /* Uppercase headings for a stylish look */
+nav a {
+    text-decoration: none;
+    color: #fff;
+    padding: 8px 12px;
+    background-color: #660066; /* Dark magenta */
+    border-radius: 5px;
+    transition: background-color 0.3s;
+}
+
+nav a:hover {
+    background-color: #cc0066; /* Lighter magenta on hover */
+}
+
+.resume {
+    font-family: 'Roboto', sans-serif; /* Default font */
+    padding: 30px;
+    text-align: left;
+    max-width: 800px;
+    margin: 0 auto;
+    border-radius: 10px; /* Adding border radius for a softer look */
+}
+
+h1, h2, h3 {
+    color: #8e0d52; /* Deep pink */
+    font-family: 'Montserrat', sans-serif;
+   
 }
 
 p {
-    font-size: 18px; /* Standard font size for paragraphs */
-    line-height: 1.5; /* Improved readability */
-    text-align: justify;
+    color: white;
+    font-size: 1.1em;
+    line-height: 1.5;
+   
 }
 
-/* Add Bratz-like fashion elements, such as diva sunglasses and a stylish handbag */
-.diva-sunglasses {
-    max-width: 100px;
-    height: auto;
-    margin-top: 20px;
+strong {
+    color: #4d004d; /* Dark purple */
 }
 
-.stylish-handbag {
-    max-width: 150px;
-    height: auto;
-    margin-top: 20px;
+.button {
+    text-decoration: none;
+    color: #fff;
+    padding: 10px 20px;
+    background-color: #660066; /* Dark magenta */
+    border-radius: 5px;
+    transition: background-color 0.3s;
+    font-family: 'Roboto', sans-serif; /* Use Roboto for the buttons */
 }
+
+.button:hover {
+    background-color: #ff1493; /* Deep pink */
+}
+.cuteGif {
+    top: 10px;
+    left: 10px;
+    max-width: 100px; /* Adjust the size as needed */
+    border-radius: 50%;
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.1); /* Reduced shadow for a smaller size */
+}
+
+
+
