@@ -1,19 +1,18 @@
-/* Reset some default styles */
-body, h1, h2, p {
-    margin: 0;
-    padding: 0;
-    font-family: 'Arial', sans-serif; /* Change the font family to something cute */
+/* Add styles for the front page here */
+body {
+    background-color: #f8f8f8;
+    font-family: 'Roboto', sans-serif; /* Default font */
 }
 
-/* Basic styling for header and navigation */
 header {
-    background-color: #ff6eb4; /* Pink background color */
-    color: #fff;
-    padding: 10px 0;
+    background-color: #ff80c0; /* Bratz pink */
+    padding: 10px;
 }
 
 nav ul {
-    list-style: none;
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
 }
 
 nav li {
@@ -24,35 +23,70 @@ nav li {
 nav a {
     text-decoration: none;
     color: #fff;
-    font-size: 20px; /* Increase font size for a cute look */
-    font-weight: bold;
-    text-transform: uppercase;
+    padding: 8px 12px;
+    background-color: #660066; /* Dark magenta */
+    border-radius: 5px;
+    transition: background-color 0.3s;
 }
 
-/* Styling for hero section */
+nav a:hover {
+    background-color: #cc0066; /* Lighter magenta on hover */
+}
+
 .hero {
-    background-image: url('hero-image.jpg');
-    background-size: cover;
+    background-color: #ffe8ff; /* Light pink */
     text-align: center;
-    padding: 100px 0;
-    color: #ff6eb4; /* Pink text color */
-    font-size: 36px; /* Larger font size for a cute look */
-    font-weight: bold;
+    padding: 50px;
 }
 
-/* Styling for other sections and footer */
-.about, .portfolio, .contact {
-    padding: 20px;
-    background-color: #fff; /* White background for content sections */
-    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1); /* Add a subtle shadow for a cute touch */
-    border-radius: 10px; /* Rounded corners for a cute appearance */
+.hero h1 {
+    font-size: 2.5em;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 700; /* Bold */
+    color: #660066; /* Dark magenta */
 }
 
-/* Footer styling */
-footer {
+.hero p {
+    font-size: 1.2em;
+    color: #660066; /* Dark magenta */
+}
+
+.about {
+    background-color: #f66db1; /* Lighter pink */
+    padding: 30px;
     text-align: center;
-    background-color: #ff6eb4; /* Pink background color */
+}
+
+.about h2 {
+    font-size: 2em;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 600; /* Semi-bold */
+    color: #cc0066; /* Deep pink */
+    margin-bottom: 20px;
+}
+
+.about .text {
+    font-size: 1.1em;
+    color:white;
+    margin-bottom: 15px;
+}
+
+.link-buttons a {
+    text-decoration: none;
     color: #fff;
-    padding: 10px 0;
-    font-size: 18px; /* Adjust font size as needed */
+    padding: 10px 20px;
+    background-color: #660066; /* Dark magenta */
+    border-radius: 5px;
+    transition: background-color 0.3s;
+    font-family: 'Roboto', sans-serif; /* Use Roboto for the buttons */
+}
+
+.link-buttons a:hover {
+    background-color: #cc0066; /* Lighter magenta on hover */
+}
+
+.footer-text {
+    text-align: center;
+    margin-top: 20px;
+    color: #ff80c0; /* Bratz pink */
 }
