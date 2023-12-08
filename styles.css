@@ -90,3 +90,14 @@ nav a:hover {
     margin-top: 20px;
     color: #ff80c0; /* Bratz pink */
 }
+/* Add this to your existing CSS or create a new CSS file */
+.cute-gif {
+    text-align: center; /* Center the gif */
+    margin-top: 20px; /* Adjust margin as needed */
+}
+
+.cute-gif img {
+    max-width: 150px; /* Set the maximum width of the gif */
+    border-radius: 50%; /* Make it round for a cute look */
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); /* Add a subtle shadow */
+}
