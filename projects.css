@@ -1,12 +1,12 @@
 /* Add your styles for the projects page here */
 body {
-    background-color: #da9bbb; /* Lighter pink */
+    background-color: #f8f8f8; /* Lighter background color */
     font-family: 'Roboto', sans-serif; /* Default font */
     margin: 0;
 }
 
 .project-box {
-    background-color: #f66db1; /* Lighter pink */
+    background-color: #ffe8ff; /* Lighter pink */
     border-radius: 8px;
     overflow: hidden;
     box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
@@ -14,7 +14,7 @@ body {
 }
 
 h2, h3 {
-    color: #cc0066; /* Deep pink */
+    color: #660066; /* Dark magenta */
     margin: 0;
     padding: 10px;
 }
@@ -26,8 +26,9 @@ iframe, img, .empty-box {
 }
 
 .empty-box {
-    background-color: #cc0066; /* Deep pink */
+    background-color: #cc0066; /* Dark magenta */
 }
+
 .link-buttons a {
     text-decoration: none;
     color: #fff;

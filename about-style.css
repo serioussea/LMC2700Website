@@ -79,5 +79,11 @@ strong {
     box-shadow: 0 0 5px rgba(0, 0, 0, 0.1); /* Reduced shadow for a smaller size */
 }
 
+.footer-text {
+    text-align: center;
+    margin-top: 20px;
+    color: #ff80c0; /* Bratz pink */
+}
+
 
 
