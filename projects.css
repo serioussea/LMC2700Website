@@ -1,50 +1,100 @@
 /* Add your styles for the projects page here */
+
 body {
-    background-color: #f8f8f8; /* Lighter background color */
-    font-family: 'Roboto', sans-serif; /* Default font */
+    background-color: #da9bbb; /* Lighter pink */
+    font-family: 'Roboto', sans-serif;
     margin: 0;
 }
 
-.project-box {
-    background-color: #ffe8ff; /* Lighter pink */
-    border-radius: 8px;
-    overflow: hidden;
-    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
-    margin-bottom: 20px;
-}
-
-h2, h3 {
-    color: #660066; /* Dark magenta */
-    margin: 0;
+nav {
+    background-color: #ff80c0; /* Bratz pink */
     padding: 10px;
-}
-
-iframe, img, .empty-box {
-    width: 100%;
-    max-width: 400px; /* Smaller width for cuteness */
-    height: 250px; /* Smaller height for cuteness */
-}
-
-.empty-box {
-    background-color: #cc0066; /* Dark magenta */
 }
 
 .link-buttons a {
     text-decoration: none;
     color: #fff;
-    padding: 10px 20px;
+    padding: 8px 12px;
     background-color: #660066; /* Dark magenta */
     border-radius: 5px;
+    margin-right: 10px;
     transition: background-color 0.3s;
-    font-family: 'Roboto', sans-serif; /* Use Roboto for the buttons */
 }
 
 .link-buttons a:hover {
     background-color: #cc0066; /* Lighter magenta on hover */
 }
 
-.footer-text {
+.project-box {
+    background-color: #ffccf2; /* Lighter pink */
+    border-radius: 15px;
+    overflow: hidden;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    margin: 20px;
+}
+
+h2, h3 {
+    color: #cc0066; /* Deep pink */
+    font-family: 'Montserrat', sans-serif; /* Montserrat font */
+    font-weight: 500; /* Semi-bold */
+    margin: 0;
+    padding: 10px;
+}
+
+iframe, img, .empty-box {
+    width: 100%;
+    max-width: 100%;
+    height: 200px; /* Smaller height for cuteness */
+    object-fit: cover;
+    border-bottom-left-radius: 15px;
+    border-bottom-right-radius: 15px;
+}
+
+.empty-box {
+    background-color: #cc0066; /* Deep pink */
+    height: 200px;
+}
+
+details {
+    background-color: #ffe8ff; /* Light pink for dropdown */
+    border-radius: 15px;
+    margin-top: 10px;
+    padding: 10px;
+}
+
+footer {
     text-align: center;
     margin-top: 20px;
     color: #ff80c0; /* Bratz pink */
 }
+/* Add this to your projects.css or a new CSS file */
+@keyframes sparkle {
+    0% { transform: scale(1); opacity: 1; }
+    100% { transform: scale(2); opacity: 0; }
+}
+
+.sparkle-click::after {
+    content: '✨';
+    position: absolute;
+    animation: sparkle 0.5s linear;
+}
+/* Add this to your projects.css or a new CSS file */
+@keyframes sparkleAnimation {
+    0% { opacity: 1; }
+    100% { opacity: 0; }
+}
+
+.sparkle-scroll {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100vw;
+    height: 100vh;
+    background: url('pixel sparkle.gif') no-repeat;
+    background-size: cover; /* Ensure the gif covers the entire div */
+    animation: sparkleAnimation 5s forwards; /* Play the animation for 5 seconds */
+    pointer-events: none;
+    z-index: 9999; /* Adjust the z-index to make sure it's above other elements */
+}
+
+

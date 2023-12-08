@@ -62,6 +62,26 @@
             <div class="empty-box"></div> <!-- Placeholder for now -->
         </a>
     </div>
+    <footer>
+        <p class="footer-text">&copy; 2023 Serena Jackson</p>
+    </footer>
+    <!-- Add this script tag to your HTML file, preferably just before the closing body tag -->
+    <script>
+        document.addEventListener('click', function (event) {
+            const sparkle = document.createElement('div');
+            sparkle.classList.add('sparkle-click');
+            sparkle.style.top = (event.clientY - 10) + 'px';
+            sparkle.style.left = (event.clientX - 10) + 'px';
+
+            document.body.appendChild(sparkle);
+
+        // Remove the sparkle element after the animation ends
+            sparkle.addEventListener('animationend', function () {
+                sparkle.remove();
+            });
+        });
+    </script>
+    <div class="sparkle-scroll"></div>
 </body>
 </html>
 
