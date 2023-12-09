@@ -52,7 +52,7 @@ nav a:hover {
 }
 
 .about {
-    background-color: #f66db1; /* Lighter pink */
+    background-color: #d1498d; /* Lighter pink */
     padding: 30px;
     text-align: center;
 }
@@ -61,7 +61,7 @@ nav a:hover {
     font-size: 2em;
     font-family: 'Montserrat', sans-serif;
     font-weight: 600; /* Semi-bold */
-    color: #cc0066; /* Deep pink */
+    color: #f5cde2; /* Deep pink */
     margin-bottom: 20px;
 }
 
